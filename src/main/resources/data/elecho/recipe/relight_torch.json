@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [ { "item": "elecho:extinguished_torch" }, { "item": "minecraft:flint" } ],
+  "result": { "id": "minecraft:torch", "count": 1 }
+}

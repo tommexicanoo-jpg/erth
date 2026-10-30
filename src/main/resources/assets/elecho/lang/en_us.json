@@ -1,0 +1,20 @@
+{
+  "item.elecho.extinguished_torch": "Extinguished Torch",
+  "block.elecho.extinguished_torch": "Extinguished Torch",
+  "block.elecho.extinguished_wall_torch": "Extinguished Torch",
+  "block.elecho.echo_mirror": "Echo Mirror",
+  "block.elecho.echo_original": "The Original",
+  "item.elecho.lighter": "Lighter",
+  "item.elecho.observer_spawn_egg": "Observer of the Mist Spawn Egg",
+  "entity.elecho.echo": "The Echo",
+  "entity.elecho.observer": "The Observer of the Mist",
+  "elecho.night.title": "Night %s of ▒▒▒▒",
+  "elecho.night.sub.1": "The sun never rises here. Someone was here before you...",
+  "elecho.night.sub.2": "The world begins to forget you.",
+  "elecho.night.sub.3": "The mist thickens. You are no longer alone.",
+  "elecho.night.sub.4": "Keep the light burning. And sleep... if you dare.",
+  "elecho.night.sub.5": "RUN.",
+  "elecho.shader.copied": "Shaderpack copied to %s. Enable it in Video Settings > Shader Packs (requires Iris).",
+  "elecho.shader.error": "Could not copy the shaderpack: %s",
+  "elecho.shader.status": "Paranoia received from the server: %s"
+}

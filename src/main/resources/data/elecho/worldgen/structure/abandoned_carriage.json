@@ -1,0 +1,8 @@
+{
+  "type": "elecho:eco_structure",
+  "kind": "carriage",
+  "biomes": "#elecho:has_abandoned_carriage",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

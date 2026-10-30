@@ -1,0 +1,43 @@
+plugins {
+    id 'fabric-loom' version '1.7-SNAPSHOT'
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+base { archivesName = project.archives_base_name }
+
+repositories { }
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+
+processResources {
+    inputs.property "version", project.version
+    filesMatching("fabric.mod.json") { expand "version": project.version }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.encoding = "UTF-8"
+    it.options.release = 21
+}
+
+java {
+    withSourcesJar()
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+// Empaqueta el shaderpack opcional en build/distributions/ElEcho-Shaders.zip
+// (la carpeta shaderpack/ contiene "shaders/" en la raiz del zip, como exige Iris/OptiFine)
+tasks.register('zipShaderpack', Zip) {
+    archiveFileName = 'ElEcho-Shaders.zip'
+    destinationDirectory = layout.buildDirectory.dir('distributions')
+    from('shaderpack')
+}
+
+jar { from("LICENSE") { rename { "${it}_${project.base.archivesName.get()}" } } }

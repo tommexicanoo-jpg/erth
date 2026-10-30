@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,flicker=false": {
+      "model": "elecho:block/extinguished_wall_torch"
+    },
+    "facing=east,flicker=true": {
+      "model": "elecho:block/extinguished_wall_torch"
+    },
+    "facing=south,flicker=false": {
+      "model": "elecho:block/extinguished_wall_torch",
+      "y": 90
+    },
+    "facing=south,flicker=true": {
+      "model": "elecho:block/extinguished_wall_torch",
+      "y": 90
+    },
+    "facing=west,flicker=false": {
+      "model": "elecho:block/extinguished_wall_torch",
+      "y": 180
+    },
+    "facing=west,flicker=true": {
+      "model": "elecho:block/extinguished_wall_torch",
+      "y": 180
+    },
+    "facing=north,flicker=false": {
+      "model": "elecho:block/extinguished_wall_torch",
+      "y": 270
+    },
+    "facing=north,flicker=true": {
+      "model": "elecho:block/extinguished_wall_torch",
+      "y": 270
+    }
+  }
+}

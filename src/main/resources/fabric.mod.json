@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "elecho",
+  "version": "${version}",
+  "name": "El Echo",
+  "description": "Una noche eterna. Un jugador que estuvo antes que tú. Dobles que aparecen cuando la paranoia sube. Duerme... si te atreves.",
+  "authors": ["Tú"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.elecho.ElEcho"],
+    "client": ["com.elecho.client.ElEchoClient"]
+  },
+  "mixins": ["elecho.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

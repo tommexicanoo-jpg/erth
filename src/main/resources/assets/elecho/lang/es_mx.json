@@ -1,0 +1,20 @@
+{
+  "item.elecho.extinguished_torch": "Antorcha apagada",
+  "block.elecho.extinguished_torch": "Antorcha apagada",
+  "block.elecho.extinguished_wall_torch": "Antorcha apagada",
+  "block.elecho.echo_mirror": "Espejo del Eco",
+  "block.elecho.echo_original": "El Original",
+  "item.elecho.lighter": "Mechero",
+  "item.elecho.observer_spawn_egg": "Huevo generador de Observador de la Bruma",
+  "entity.elecho.echo": "El Eco",
+  "entity.elecho.observer": "El Observador de la Bruma",
+  "elecho.night.title": "Noche %s de ▒▒▒▒",
+  "elecho.night.sub.1": "Aquí nunca amanece. Alguien estuvo antes que tú...",
+  "elecho.night.sub.2": "El mundo empieza a olvidarte.",
+  "elecho.night.sub.3": "La bruma se espesa. Ya no estás solo.",
+  "elecho.night.sub.4": "Mantén la luz encendida. Y duerme... si te atreves.",
+  "elecho.night.sub.5": "CORRE.",
+  "elecho.shader.copied": "Shaderpack copiado a %s. Actívalo en Opciones > Ajustes de vídeo > Paquetes de shaders (requiere Iris).",
+  "elecho.shader.error": "No se pudo copiar el shaderpack: %s",
+  "elecho.shader.status": "Paranoia recibida del servidor: %s"
+}

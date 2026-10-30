@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "flicker=false": {
+      "model": "elecho:block/extinguished_torch"
+    },
+    "flicker=true": {
+      "model": "elecho:block/extinguished_torch"
+    }
+  }
+}

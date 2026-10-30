@@ -1,0 +1,8 @@
+{
+  "type": "elecho:eco_structure",
+  "kind": "chapel",
+  "biomes": "#elecho:has_ruined_chapel",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

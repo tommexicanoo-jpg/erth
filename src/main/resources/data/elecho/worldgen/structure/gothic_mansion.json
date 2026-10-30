@@ -1,0 +1,8 @@
+{
+  "type": "elecho:eco_structure",
+  "kind": "mansion",
+  "biomes": "#elecho:has_gothic_mansion",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}
